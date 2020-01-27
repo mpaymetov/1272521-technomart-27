@@ -7,16 +7,19 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-title">Техномарт</a>
-        <form>
-          <input type="search">
-          <input type="submit" value="Найти">
-        </form>
-        <a href="">Закладки: 0</a>
-        <a href="">Корзина: 0</a>
-        <a href="">Оформить заказ</a>
+  <header class="main-header">
+    <div class="main-header-top-wrapper">
+      <a class="main-header-title">Техномарт</a>
+      <form>
+        <input type="search">
+        <input type="submit" value="Найти">
+      </form>
+      <a href="">Закладки: 0</a>
+      <a href="">Корзина: 0</a>
+      <a href="">Оформить заказ</a>
+    </div>
+    <div class="main-header-bottom-wrapper">
+      <div class="main-header-middle-wrapper">
         <p>
           Интернет-магазин<br>
           строительных материалов<br>
@@ -26,19 +29,21 @@
         <p>г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
         <button type="button" class="button-logon">Войти</button>
         <button type="button" class="button-register">Регистрация</button>
-
+      </div>
+      <nav class="main-navigation">
         <ul class="site-navigation">
           <li><a>Главная</a></li>
-          <li><a href="info.html">Компания</a></li>
+          <li><a href="">Компания</a></li>
           <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="special-offers.html">Спецпредложения</a></li>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="">Новости</a></li>
+          <li><a href="">Спецпредложения</a></li>
+          <li><a href="">Доставка</a></li>
+          <li><a href="">Контакты</a></li>
         </ul>
       </nav>
-    </header>
-    <main>
+    </div>
+  </header>
+  <main>
       <h1 class="page-title">магазина Техномарт</h1>
 
       <section class="about">
@@ -65,10 +70,10 @@
           Вы можете забрать товар сами,<br>
           заехав в наш офис:
         </p>
-        <div class="about-map">
-          <!-- Здесь будет карта -->
-        </div>
-        <a href="">Заблудились? НапиШИТЕ НАМ!</a>
+        <a href="">
+          <img src="/img/1.jpg"  alt="Как добраться" width="1" height="1">
+        </a>
+        <a href="">Заблудились? Напишите нам!</a>
       </section>
     </main>
 
@@ -76,11 +81,11 @@
       <div class="footer-top">
         <a class="footer-title">Техномарт</a>
         <ul class="footer-top-menu">
-          <li><a href="info.html">Компания</a></li>
-          <li><a href="news.html">Новости</a></li>
+          <li><a href="">Компания</a></li>
+          <li><a href="">Новости</a></li>
           <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="">Доставка</a></li>
+          <li><a href="">Контакты</a></li>
         </ul>
       </div>
       <div class="footer-middle">
@@ -89,11 +94,10 @@
           +7 (812) 555-05-55
         </p>
         <ul class="footer-middle-menu">
-          <li><a>Главная</a></li>
           <li><a href="">Материалы</a></li>
           <li><a href="">Техника</a></li>
           <li><a href="">Инструменты</a></li>
-          <li><a href="special-offers.html">Спецпредложения</a></li>
+          <li><a href="">Спецпредложения</a></li>
         </ul>
       </div>
       <div class="footer-bottom">
@@ -102,14 +106,13 @@
           Все права защищены
         </p>
         <div class="social-links">
-          <a href="" class="">в контакте</a>
-          <a href="" class="">facebook</a>
-          <a href="" class="">twitter</a>
+          <a href="" class="vk-link">в контакте</a>
+          <a href="" class="fb-link">facebook</a>
+          <a href="" class="tw-link">twitter</a>
         </div>
-        <p>Обратная связь:<br><span>mail@htmlacademy.tu</span></p>
-        <p>Разработано -<br><span>htmlacademy.tu</span></p>
+        <p>Обратная связь:<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+        <p>Разработано -<a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
       </div>
     </footer>
-    <script src="js/script.js"></script>
   </body>
 </html>

@@ -48,7 +48,7 @@
 
       <section class="advantages">
         <h2 class="section-title">Возможности магазина</h2>
-        <ul>
+        <ul class="goods-list">
           <li>
             <h3>Материалы</h3>
             <a href="" class="">на любой вкус</a>
@@ -61,6 +61,8 @@
             <h3>Техника</h3>
             <a href="" class="">для стройки</a>
           </li>
+        </ul>
+        <ul class="advantages-services">
           <li>
             <h3>Скидка</h3>
             <a href="" class="">на 350 товаров</a>
@@ -76,11 +78,13 @@
             <button type="button" class="slider-nav-btn">след.</button>
           </div>
           <div class="slider-item">
+            <img src="/img/1.jpg" alt="Дрель" width="1" height="1">
             <h3 class="slider-item-title">Дрели</h3>
             <p class="slider-item-text">Соседям на радость</p>
             <a href="catalog.html" class="slider-item-link">открыть каталог</a>
           </div>
           <div class="slider-item">
+            <img src="/img/1.jpg" alt="Перфоратор" width="1" height="1">
             <h3 class="slider-item-title">Перфораторы</h3>
             <p class="slider-item-text">Настроящие мужские игрушки</p>
             <a href="catalog.html" class="slider-item-link">открыть каталог</a>
@@ -89,8 +93,10 @@
       </section>
 
       <section class="popular-products">
-        <h2 class="section-title">Популярные товары:</h2>
-        <a href="" class="popular-products-link">Все популярные товары</a>
+        <div class="section-header">
+          <h2 class="section-title">Популярные товары:</h2>
+          <a href="" class="popular-products-link">Все популярные товары</a>
+        </div>
         <ul class="popular-products-list">
           <li class="popular-products-item">
             <article>
@@ -143,17 +149,19 @@
       </section>
 
       <section class="popular-brands">
-        <h2 class="section-title">Популярные производители:</h2>
-        <a href="" class="popular-brands-link">Все производители</a>
+        <div class="section-header">
+          <h2 class="section-title">Популярные производители:</h2>
+          <a href="" class="popular-brands-link">Все производители</a>
+        </div>
         <ul class="popular-manufacturers-list">
-          <li class="popular-brands-item"><img src="/img/1.jpg" alt="Bosch" width="1" height="1"></li>
-          <li class="popular-brands-item"><img src="/img/1.jpg" alt="Makita" width="1" height="1"></li>
-          <li class="popular-brands-item"><img src="/img/1.jpg" alt="DeWALT" width="1" height="1"></li>
-          <li class="popular-brands-item"><img src="/img/1.jpg" alt="Интерскол" width="1" height="1"></li>
-          <li class="popular-brands-item"><img src="/img/1.jpg" alt="Hitachi" width="1" height="1"></li>
-          <li class="popular-brands-item"><img src="/img/1.jpg" alt="LG" width="1" height="1"></li>
-          <li class="popular-brands-item"><img src="/img/1.jpg" alt="AEG Power Solutions" width="1" height="1"></li>
-          <li class="popular-brands-item"><img src="/img/1.jpg" alt="metabo" width="1" height="1"></li>
+          <li class="popular-brands-item"><a href=""><img src="/img/1.jpg" alt="Bosch" width="1" height="1"></a></li>
+          <li class="popular-brands-item"><a href=""><img src="/img/1.jpg" alt="Makita" width="1" height="1"></a></li>
+          <li class="popular-brands-item"><a href=""><img src="/img/1.jpg" alt="DeWALT" width="1" height="1"></a></li>
+          <li class="popular-brands-item"><a href=""><img src="/img/1.jpg" alt="Интерскол" width="1" height="1"></a></li>
+          <li class="popular-brands-item"><a href=""><img src="/img/1.jpg" alt="Hitachi" width="1" height="1"></a></li>
+          <li class="popular-brands-item"><a href=""><img src="/img/1.jpg" alt="LG" width="1" height="1"></a></li>
+          <li class="popular-brands-item"><a href=""><img src="/img/1.jpg" alt="AEG Power Solutions" width="1" height="1"></a></li>
+          <li class="popular-brands-item"><a href=""><img src="/img/1.jpg" alt="metabo" width="1" height="1"></a></li>
         </ul>
       </section>
 
@@ -162,9 +170,13 @@
         <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
+        <ul>
+          <li><button type="button">Доставка</button></li>
+          <li><button type="button">Гарантия</button></li>
+          <li><button type="button">Кредит</button></li>
+        </ul>
         <ul class="service-list">
           <li class="service-item">
-            <p>Доставка</p>
             <div>
               <h3 class="service-item-title">Доставка</h3>
               <p class="service-item-description">
@@ -176,7 +188,6 @@
             </div>
           </li>
           <li class="service-item">
-            <p>Гарантия</p>
             <div>
               <h3 class="service-item-title">Гарантия</h3>
               <p class="service-item-description">
@@ -189,7 +200,6 @@
             </div>
           </li>
           <li class="service-item">
-            <p>Кредит</p>
             <div>
               <h3 class="service-item-title">Кредит</h3>
               <p class="service-item-description">

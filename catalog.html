@@ -47,8 +47,6 @@
     </div>
   </header>
 
-
-
   <main>
     <ol class="breadcrumbs">
       <li><a href="index.html" class="home-link"></a></li>
@@ -60,8 +58,43 @@
 
     <section class="filter">
       <h2>Фильтр:</h2>
-      <!-- Здесь будет форма -->
+      <form about="" method="post">
+        <fieldset>
+          <legend>Цена:</legend>
+          <input type="range" min="0" max="40000" step="1000" value="30000" multiple>
+          <label for="cost-from">цена от</label>
+          <input type="number" id="cost-from" name="cost-from" value="0">
+          <label for="cost-to">цена до</label>
+          <input type="number" id="cost-to" name="cost-to" value="30000">
+        </fieldset>
 
+        <fieldset>
+          <legend>Производители:</legend>
+          <ul>
+            <li><input type="checkbox" name="brand" id="Bosch" value="Bosch" checked> Bosch</li>
+            <li><input type="checkbox" name="brand" id="interskol" value="interskol"> Интерскол</li>
+            <li><input type="checkbox" name="brand" id="Makita" value="Makita" checked> Makita</li>
+            <li><input type="checkbox" name="brand" id="DeWalt" value="DeWalt"> DeWalt</li>
+            <li><input type="checkbox" name="brand" id="Hitachi" value="Hitachi"> Hitachi</li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Питание:</legend>
+          <ul>
+            <li>
+              <input type="radio" id="rechargeable" name="power" value="1" checked>
+              <label for="rechargeable">Аккумуляторные</label>
+            </li>
+            <li>
+              <input type="radio" id="mains" name="power" value="2">
+              <label for="mains">Сетевые</label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <button type="submit">Показать</button>
+      </form>
     </section>
 
     <section class="sort-links">
@@ -200,6 +233,13 @@
       </p>
     </section>
   </main>
+
+  <section class="popup-info">
+    <h2>Товар добавлен в корзину!</h2>
+    <a href="">Оформить заказ</a>
+    <a href="">Продолжить покупки</a>
+    <button type="button">Закрыть</button>
+  </section>
 
   <footer>
     <div class="footer-top">

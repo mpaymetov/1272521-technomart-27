@@ -61,10 +61,14 @@
       <form about="" method="post">
         <fieldset>
           <legend>Цена:</legend>
-          <input type="range" min="0" max="40000" step="1000" value="30000" multiple>
-          <label for="cost-from">цена от</label>
+          <div class="range-slider-track">
+            <div class="range-slider-pin range-slider-pin-min"></div>
+            <div class="range-slider-pin range-slider-pin-max"></div>
+          </div>
+
+          <label for="cost-from" class="visually-hidden">цена от</label>
           <input type="number" id="cost-from" name="cost-from" value="0">
-          <label for="cost-to">цена до</label>
+          <label for="cost-to" class="visually-hidden">цена до</label>
           <input type="number" id="cost-to" name="cost-to" value="30000">
         </fieldset>
 
@@ -107,7 +111,7 @@
     </section>
 
     <section class="catalog">
-      <h2 class="hidden">Каталог перфораторов</h2>
+      <h2 class="visually-hidden">Каталог перфораторов</h2>
       <ul class="products-list">
         <li class="products-item">
           <article>

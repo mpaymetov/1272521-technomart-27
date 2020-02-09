@@ -14,9 +14,9 @@
           <input type="search" name="search" placeholder="Поиск:">
           <button type="submit" class="visually-hidden">Найти</button>
         </form>
-        <a href="#">Закладки: 0</a>
-        <a href="#">Корзина: 0</a>
-        <a href="#" class="button-order">Оформить заказ</a>
+        <a href="#" class="header-top-link">Закладки: 0</a>
+        <a href="#" class="header-top-link">Корзина: 0</a>
+        <a href="#" class="header-top-link button-order">Оформить заказ</a>
       </div>
       <div class="main-header-bottom-wrapper">
         <div class="main-header-middle-wrapper">
@@ -25,7 +25,7 @@
             строительных материалов<br>
             и инструментов для ремонта
           </p>
-          <a href="tel:+78125550555" class="main-header-phone">+7 (812) 555-05-55</a>
+          <p class="main-header-phone">+7 (812) 555-05-55</p>
           <p class="main-header-address">г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
           <a href="#" class="button-logon">Войти</a>
           <a href="#" class="button-register">Регистрация</a>
@@ -51,25 +51,25 @@
         <ul class="goods-list">
           <li class="materials">
             <h3>Материалы</h3>
-            <a href="#" class="">на любой вкус</a>
+            <a href="#" class="advantages-link">на любой вкус</a>
           </li>
           <li class="instruments">
             <h3>Инструменты</h3>
-            <a href="#" class="">на все случаи</a>
+            <a href="#" class="advantages-link">на все случаи</a>
           </li>
           <li class="equipment">
             <h3>Техника</h3>
-            <a href="#" class="">для стройки</a>
+            <a href="#" class="advantages-link">для стройки</a>
           </li>
         </ul>
         <ul class="advantages-services">
           <li class="discount">
             <h3>Скидка</h3>
-            <a href="#" class="">на 350 товаров</a>
+            <a href="#" class="advantages-link">на 350 товаров</a>
           </li>
           <li class="delivery">
             <h3>Доставка</h3>
-            <a href="#" class="">бесплатно</a>
+            <a href="#" class="advantages-link">бесплатно</a>
           </li>
         </ul>
         <section class="slider">
@@ -246,21 +246,21 @@
     <section class="popup-email-us">
       <h2 class="visually-hidden">Напишите нам</h2>
       <form action="https://echo.htmlacademy.ru" method="post">
-        <label for="name">Ваше имя:</label>
+        <label for="name" class="popup-label">Ваше имя:</label>
         <input type="text" id="name" name="name" placeholder="Имя Фамилия">
-        <label for="email">Ваше e-mail:</label>
+        <label for="email" class="popup-label">Ваше e-mail:</label>
         <input type="email" id="email" name="email" placeholder="email@example.com">
-        <label for="letter">Текст письма:</label>
+        <label for="letter" class="popup-label">Текст письма:</label>
         <textarea id="letter" name="letter" placeholder="В свободной форме"></textarea>
-        <button type="submit">Отправить</button>
+        <button type="submit" class="popup-submit-buttom">Отправить</button>
       </form>
-      <button type="button">Закрыть</button>
+      <button type="button" class="visually-hidden">Закрыть</button>
     </section>
 
     <section class="popup-map">
       <h2 class="visually-hidden">Как добраться</h2>
       <iframe src="" width="970" height="476"></iframe>
-      <button type="button">Закрыть</button>
+      <button class="visually-hidden" type="button">Закрыть</button>
     </section>
 
     <footer class="footer">

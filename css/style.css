@@ -266,22 +266,42 @@ a {
   background-color: #ee3643;
 }
 
-.popular-products-list {
+.products-list {
   list-style: none;
   padding-left: 0;
-  display: flex;
 }
 
-.popular-products-item {
+.products-item {
   border: 1px solid #a9a9a9;
 }
 
-.popular-product-title {
+.product-title {
   font-family: "PT Sans";
   font-size: 18px;
   line-height: 20px;
   font-weight: bold;
   color: #000000;
+}
+
+.product-buy-button {
+  font-family: Cuprum;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #63a63e;
+  border: none;
+  box-shadow: 0 3px 0 0 #367315;
+}
+
+.product-mark-button {
+  font-family: Cuprum;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #32425c;
+  background-color: #ffffff;
+  border: 3px solid #63a63e;
 }
 
 .product-old-price {
@@ -334,6 +354,7 @@ a {
   font-weight: bold;
   color: #ffffff;
   background-color: #32425c;
+  border: none;
 }
 
 .service-title-button.active {
@@ -387,7 +408,7 @@ a {
 
 .filter {}
 
-.filter h2 {
+.filter h2, .sort-links h2 {
   font-family: "PT Sans";
   font-size: 13px;
   line-height: 18px;
@@ -402,6 +423,99 @@ a {
 
 .filter fieldset:not(:last-child) {
   border-bottom: 1px solid grey;
+}
+
+.filter legend {
+  font-family: "PT Sans";
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter input[type="number"] {
+  font-family: "PT Sans";
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+  background-color: #f7f3ec;
+  border: none;
+}
+
+.brand-list, .power-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.brand-name, .power-from {
+  font-family: "PT Sans";
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter button {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.sort-links {
+  background-color: #f7f3ec;
+}
+
+.sort-link {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #acaaa5;
+  text-decoration: underline;
+  text-decoration-color: #ee3643;
+  text-decoration-style: dotted;
+}
+
+.sort-link.active {
+  color: #ee3643;
+  text-decoration: none;
+}
+
+.pagination {
+  list-style: none;
+  padding-left: 0;
+}
+
+.page-link {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5e5e5;
+}
+
+.page-link.active {
+  color: #ffffff;
+  background-color: #ee3643;
+  border-color: #ee3643;
+}
+
+.sort-asc-btn, .sort-desc-btn {
+  display: none;
+}
+
+.about-perforators {
+  background-color: #f2f6f8;
+}
+
+.about-perforators .section-title {
+  color: #000000;
 }
 
 .popup-email-us, .popup-map, .popup-info {

@@ -397,7 +397,8 @@ input[type=search]:focus + .header-search-form-icon {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 75px;
+  min-height: 73px;
+  max-width: 300px;
 }
 
 .profile-links-wrap {
@@ -415,13 +416,13 @@ input[type=search]:focus + .header-search-form-icon {
 }
 
 .button-profile {
-  padding: 10px 19px 12px 47px;
+  padding: 10px 15px 12px 46px;
   position: relative;
 }
 
 .button-profile svg {
   position: absolute;
-  left: 16px;
+  left: 13px;
   top: 12px;
   fill: #c5c5c5;
 }
@@ -486,16 +487,32 @@ input[type=search]:focus + .header-search-form-icon {
   line-height: 18px;
   color: #32425c;
   text-decoration: underline;
-  margin-left: 18px;
-  margin-right: 10px;
+  margin-left: 17px;
+  margin-right: 11px;
+  position: relative;
 }
 
-.link-profile:hover {
+.link-profile:hover,
+.link-profile:focus {
   color: #ee3643;
 }
 
 .link-profile:active {
   color: #c5cad0;
+}
+
+.link-profile:last-child::before {
+  content: "";
+  display: block;
+  position: absolute;
+
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #32425c;
+
+  left: -17px;
+  top: 7px;
 }
 
 .site-navigation {
@@ -797,6 +814,10 @@ input[type=search]:focus + .header-search-form-icon {
   margin: 0;
 }
 
+.catalog .products-list {
+  max-width: 700px;
+}
+
 .section-header {
   background-color: #f9f5f0;
   display: flex;
@@ -853,8 +874,9 @@ input[type=search]:focus + .header-search-form-icon {
 }
 
 .products-item {
+  max-width: 219px;
   width: 219px;
-  height: 318px;
+  min-height: 318px;
   border: 1px solid #e5e5e5;
   margin-bottom: 20px;
 }
@@ -871,6 +893,8 @@ input[type=search]:focus + .header-search-form-icon {
   justify-content: space-around;
   text-align: center;
   height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .products-item:hover article {
@@ -878,8 +902,7 @@ input[type=search]:focus + .header-search-form-icon {
 }
 
 .products-item-link {
-  margin-top: 10px;
-
+  margin-top: 40px;
 }
 
 .product-title {
@@ -910,7 +933,7 @@ input[type=search]:focus + .header-search-form-icon {
   padding-top: 10px;
   padding-bottom: 6px;
   padding-left: 10px;
-  margin-top: 38px;
+  margin-top: 39px;
 }
 
 .product-buy-button:hover,
@@ -950,7 +973,8 @@ input[type=search]:focus + .header-search-form-icon {
   padding-bottom: 6px;
   padding-left: 10px;
 
-  margin-bottom: 30px;
+  //margin-bottom: 8px;
+  margin-top: 2px;
 }
 
 .product-mark-button:hover,
@@ -971,6 +995,25 @@ input[type=search]:focus + .header-search-form-icon {
 .products-item-picture {
   position: absolute;
   top: 0;
+  left: 0;
+}
+
+.products-new article::before {
+  content: "new";
+  font-family: 'Cuprum';
+  background-color: #ee3642;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  position: absolute;
+  right: -21px;
+  top: 6px;
+  width: 80px;
+  z-index: 2;
 }
 
 .price-block {
@@ -979,7 +1022,7 @@ input[type=search]:focus + .header-search-form-icon {
   justify-content: flex-end;
   align-items: center;
   min-height: 68px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .product-old-price {
@@ -1271,9 +1314,9 @@ input[type=search]:focus + .header-search-form-icon {
   margin: 0;
 }
 
-.filter fieldset:not(:last-child) {
+/*.filter fieldset:not(:last-child) {
   border-bottom: 1px solid grey;
-}
+}*/
 
 .filter legend {
   font-family: "PT Sans";
@@ -1294,7 +1337,26 @@ input[type=search]:focus + .header-search-form-icon {
   border-radius: 3px;
 
   margin-top: 15px;
+}
 
+.range-slider-pin::before {
+  content: "";
+  display: block;
+  position: absolute;
+
+  width: 20px;
+  height: 23px;
+  background-image: url("../img/filter-button.svg");
+}
+
+.range-slider-pin-min::before {
+  top: 30px;
+  left: 20px;
+}
+
+.range-slider-pin-max::before {
+  top: 30px;
+  right: 40px;
 }
 
 .range-values {
@@ -1302,6 +1364,7 @@ input[type=search]:focus + .header-search-form-icon {
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  margin-bottom: 24px;
 }
 
 .filter input[type="number"] {
@@ -1315,30 +1378,97 @@ input[type=search]:focus + .header-search-form-icon {
   text-align:center;
 
   padding-top: 8px;
-  padding-bottom: 8px;
+  padding-bottom: 11px;
 
   -webkit-appearance: textfield;
+}
+
+.filter hr {
+  color: #818181;
+  border-bottom-width: 0;
+  margin: 0;
+  margin-bottom: 17px;
 }
 
 .brand-list, .power-list {
   list-style: none;
   padding-left: 0;
+  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 19px;
+
+}
+
+.brand-list li, .power-list li {
+  padding-left: 34px;
+  margin-bottom: 16px;
+}
+
+.brand-name {
+  position: relative;
+}
+
+.brand-name::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+
+  background-image: url("../img/checkbox-off.svg");
+  left: -34px;
+  top: -1px;
+}
+
+.power-list-checkbox:checked + .brand-name::before {
+  width: 27px;
+  background-image: url("../img/checkbox-on.svg");
+}
+
+.power-from {
+  position: relative;
+}
+
+.power-from::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+
+  background-image: url("../img/radio-off.svg");
+  left: -35px;
+  top: -3px;
+}
+
+.power-list-radio:checked + .power-from::before {
+  width: 25px;
+  background-image: url("../img/radio-on.svg");
 }
 
 .brand-name, .power-from {
   font-family: "PT Sans";
   font-size: 15px;
   line-height: 20px;
+
   text-transform: uppercase;
   color: #000000;
 }
 
-.filter button {
+.filter-button {
   font-family: "PT Sans";
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
   color: #000000;
+
+  padding-left: 37px;
+  padding-right: 37px;
+
+  padding-top: 9px;
+  padding-bottom: 7px;
+
+  margin-top: 56px;
 }
 
 .sort-links {
@@ -1459,16 +1589,39 @@ input[type=search]:focus + .header-search-form-icon {
 }
 
 .popup-email-us {
-  //display: none;
+  display: none;
   position: fixed;
 }
 
 .popup-map {
   display: none;
+  position: fixed;
 }
 
 .popup-info {
-  display: none;
+  //display: none;
+  position: fixed;
+  width: 620px;
+  height: 275px;
+
+  border-top-width: 7px;
+  border-top-style: solid;
+  border-top-color: #ee3643;
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+  border-bottom-color: #fff;
+
+  top: calc(50% - 138px);
+  left: calc(50% - 310px);
+
+  background-color: #fff;
+  z-index: 3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-shadow: 0 20px 40px rgba(41, 52, 73, 0.75);
 }
 
 .popup-label {
@@ -1492,11 +1645,30 @@ input[type=search]:focus + .header-search-form-icon {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #ee3643;
+
   border: none;
+
+}
+
+.popup-buy-button, .popup-continue-button {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+  min-width: 220px;
+  border-radius: 3px;
+}
+
+.popup-buy-button {
+  margin-right: 20px;
 }
 
 .popup-button-block {
   background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 38px;
+  padding-bottom: 38px;
 }
 
 .popup-continue-button {
@@ -1513,7 +1685,59 @@ input[type=search]:focus + .header-search-form-icon {
   font-family: Cuprum;
   font-size: 30px;
   line-height: 30px;
+  font-weight: 100;
   color: #000000;
+  text-align: center;
+  margin-top: 50px;
+  padding-left: 65px;
+  position: relative;
+}
+
+.popup-info h2::before {
+  content: "";
+  display: block;
+  position: absolute;
+
+  background-image: url("../img/icon-mark.svg");
+  width: 66px;
+  height: 66px;
+
+  left: 80px;
+  top: -19px;
+
+}
+
+.popup-info-close {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  top: 9px;
+  right: 9px;
+  z-index: 10;
+  border: none;
+}
+
+.popup-info-close::before, .popup-info-close::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: 9px;
+  width: 25px;
+  height: 4px;
+  background-color: #ee3643;
+}
+
+.popup-info-close::before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.popup-info-close::after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .footer {

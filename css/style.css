@@ -1830,17 +1830,33 @@ input[type=search]:focus + .header-search-btn svg {
   box-shadow: 0 0 16px 0 rgba(47, 42, 43, 0.5);
   top: 33px;
   left: 0;
+  z-index: 7;
 }
 
 .popup-map.show {
   display: block;
 }
 
+.popup-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  z-index: 9;
+}
+
+.popup-map p {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8;
+}
+
 .popup-map-close {
   position: absolute;
   top: 10px;
   right: 10px;
-  z-index: 4;
   border: none;
 }
 

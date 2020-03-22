@@ -8,6 +8,7 @@ body {
   font-weight: 400;
   color: #000000;
   background-color: #ffffff;
+  min-width: 940px;
 }
 
 a {
@@ -45,7 +46,7 @@ input[type="radio"].visually-hidden {
 
 /* cuprum-regular - latin_cyrillic */
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local('Cuprum Regular'), local('Cuprum-Regular'),
@@ -54,7 +55,7 @@ input[type="radio"].visually-hidden {
 }
 /* cuprum-italic - latin_cyrillic */
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum", "Arial", sans-serif;
   font-style: italic;
   font-weight: 400;
   src: local('Cuprum Italic'), local('Cuprum-Italic'),
@@ -63,7 +64,7 @@ input[type="radio"].visually-hidden {
 }
 /* cuprum-700 - latin_cyrillic */
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   src: local('Cuprum Bold'), local('Cuprum-Bold'),
@@ -72,7 +73,7 @@ input[type="radio"].visually-hidden {
 }
 /* cuprum-700italic - latin_cyrillic */
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum", "Arial", sans-serif;
   font-style: italic;
   font-weight: 700;
   src: local('Cuprum Bold Italic'), local('Cuprum-BoldItalic'),
@@ -82,7 +83,7 @@ input[type="radio"].visually-hidden {
 
 /* pt-sans-regular - cyrillic_latin */
 @font-face {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local('PT Sans'), local('PTSans-Regular'),
@@ -91,7 +92,7 @@ input[type="radio"].visually-hidden {
 }
 /* pt-sans-700 - cyrillic_latin */
 @font-face {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   src: local('PT Sans Bold'), local('PTSans-Bold'),
@@ -158,7 +159,7 @@ input[type="radio"].visually-hidden {
 .header-search-form input[type=search]{
   min-width: 270px;
   min-height: 42px;
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   color: #000000;
@@ -215,7 +216,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .header-top-link {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
@@ -314,7 +315,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .main-header-text {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
@@ -336,7 +337,7 @@ input[type=search]:focus + .header-search-btn svg {
 
 .main-header-phone {
   display: inline-block;
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #ee3643;
@@ -363,7 +364,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .main-header-address {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -389,7 +390,7 @@ input[type=search]:focus + .header-search-btn svg {
 
 .button-register,
 .button-profile {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -447,7 +448,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .button-logon {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -489,7 +490,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .link-profile {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #32425c;
@@ -544,7 +545,7 @@ input[type=search]:focus + .header-search-btn svg {
 
 .site-navigation a {
   display: block;
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
@@ -601,7 +602,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .advantages-header {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: bold;
@@ -613,7 +614,7 @@ input[type=search]:focus + .header-search-btn svg {
 
 .advantages-link {
   display: block;
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -753,7 +754,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .slider-item-title {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 36px;
   line-height: 36px;
   font-weight: bold;
@@ -766,7 +767,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .slider-item-text {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
@@ -824,7 +825,7 @@ input[type=search]:focus + .header-search-btn svg {
 .slider-link,
 .about-link,
 .address-link {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -904,7 +905,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .section-title {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   letter-spacing: normal;
   font-size: 30px;
@@ -930,7 +931,7 @@ input[type=search]:focus + .header-search-btn svg {
 .popular-products-link,
 .popular-brands-link,
 .service-item-description-link {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -997,7 +998,7 @@ input[type=search]:focus + .header-search-btn svg {
 
 .product-title {
   max-width: 177px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
   font-weight: bold;
@@ -1009,7 +1010,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .product-buy-button {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1048,7 +1049,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .product-mark-button {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1088,7 +1089,7 @@ input[type=search]:focus + .header-search-btn svg {
 .popular-products-item-new article::before,
 .products-new article::before {
   content: "new";
-  font-family: 'Cuprum';
+  font-family: "Cuprum", "Arial", sans-serif;
   background-color: #ee3642;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -1114,7 +1115,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .product-old-price {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
@@ -1125,7 +1126,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .product-price {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
@@ -1303,7 +1304,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .service-title-button {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 30px;
   font-weight: bold;
@@ -1328,7 +1329,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .service-item-title {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 36px;
   line-height: 36px;
   text-transform: uppercase;
@@ -1342,7 +1343,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .about-list li {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
   color: #000000;
@@ -1417,7 +1418,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .breadcrumbs-link {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   text-transform: uppercase;
@@ -1427,7 +1428,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .page-title {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
@@ -1448,7 +1449,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .filter h2, .sort-links h2 {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   font-weight: 100;
@@ -1472,7 +1473,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .filter legend {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 30px;
   font-weight: bold;
@@ -1534,7 +1535,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .filter input[type="number"] {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   color: #000000;
@@ -1615,7 +1616,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .brand-name, .power-from {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
   letter-spacing: 0.15px;
@@ -1624,7 +1625,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .filter-button {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1654,7 +1655,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .sort-link {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1718,7 +1719,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .page-link {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1871,7 +1872,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .popup-label {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #000000;
@@ -1885,7 +1886,7 @@ input[type=search]:focus + .header-search-btn svg {
 
 .popup-email-us input::placeholder,
 .popup-email-us textarea::placeholder {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #a9a9a9;
@@ -1903,7 +1904,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .popup-submit-buttom, .popup-buy-button {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1962,7 +1963,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .popup-continue-button {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1972,7 +1973,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .popup-info h2 {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
   line-height: 30px;
   font-weight: 100;
@@ -2095,7 +2096,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .footer-top-menu a {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
@@ -2115,7 +2116,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .footer-middle-address {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.07px;
@@ -2127,7 +2128,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .footer-middle-menu a {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #ffd180;
@@ -2138,7 +2139,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .footer-bottom-text {
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   letter-spacing: 0.1px;
@@ -2189,7 +2190,7 @@ input[type=search]:focus + .header-search-btn svg {
 .footer-bottom-link-description {
   display: flex;
   flex-direction: column;
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;

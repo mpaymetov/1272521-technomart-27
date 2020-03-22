@@ -304,15 +304,21 @@
     <section class="popup-email-us">
       <h2 class="visually-hidden">Напишите нам</h2>
       <form action="https://echo.htmlacademy.ru" method="post">
-        <div>
-          <label for="name" class="popup-label">Ваше имя:</label>
-          <input type="text" id="name" name="name" placeholder="Имя Фамилия">
-          <label for="email" class="popup-label">Ваше e-mail:</label>
-          <input type="email" id="email" name="email" placeholder="email@example.com">
+        <div class="popup-email-us-top-wrap">
+          <label for="name" class="popup-label">
+            <span>Ваше имя:</span>
+            <input type="text" id="name" name="name" placeholder="Имя Фамилия">
+          </label>
+          <label for="email" class="popup-label">
+            <span>Ваш e-mail:</span>
+            <input type="email" id="email" name="email" placeholder="email@example.com">
+          </label>
         </div>
-        <div>
-          <label for="letter" class="popup-label">Текст письма:</label>
-          <textarea id="letter" name="letter" placeholder="В свободной форме"></textarea>
+        <div class="popup-email-us-textarea-wrap">
+          <label for="letter" class="popup-label">
+            <span>Текст письма:</span>
+            <textarea id="letter" name="letter" rows="5" placeholder="В свободной форме"></textarea>
+          </label>
         </div>
         <div class="popup-email-us-btn-block">
           <button type="submit" class="popup-submit-buttom">Отправить</button>

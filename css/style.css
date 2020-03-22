@@ -1,13 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-style: normal;
   font-weight: 400;
-
   color: #000000;
   background-color: #ffffff;
 }
@@ -34,18 +32,14 @@ html {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-
   overflow: hidden;
 }
 
@@ -164,7 +158,6 @@ input[type="radio"].visually-hidden {
 .header-search-form input[type=search]{
   min-width: 270px;
   min-height: 42px;
-
   font-family: Cuprum;
   font-size: 17px;
   line-height: 18px;
@@ -172,7 +165,6 @@ input[type="radio"].visually-hidden {
   outline: none;
   border: none;
   background-color: #293449;
-
   padding-left: 48px;
 }
 
@@ -227,10 +219,8 @@ input[type=search]:focus + .header-search-btn svg {
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
-
   padding-top: 12px;
   padding-bottom: 12px;
-
 }
 
 .button-order {
@@ -260,10 +250,8 @@ input[type=search]:focus + .header-search-btn svg {
   height: 16px;
   position: absolute;
   background-image: url("../img/icon-bookmark.svg");
-
   top: 12px;
   left: 17px;
-
   opacity: 0.3;
 }
 
@@ -278,10 +266,8 @@ input[type=search]:focus + .header-search-btn svg {
   height: 15px;
   position: absolute;
   background-image: url("../img/icon-cart.svg");
-
   top: 12px;
   left: 18px;
-
   opacity: 0.3;
 }
 
@@ -333,12 +319,9 @@ input[type=search]:focus + .header-search-btn svg {
   font-size: 16px;
   line-height: 23px;
   color: #ee3643;
-
   margin: 0;
   margin-top: 3px;
   margin-left: 52px;
-  margin-right: 0px;
-
 }
 
 .main-header-contact {
@@ -359,7 +342,6 @@ input[type=search]:focus + .header-search-btn svg {
   color: #ee3643;
   border: 3px solid #ffffff;
   margin: 0;
-  //margin-left: 4px;
   min-width: 270px;
   padding-left: 20px;
   padding-top: 9px;
@@ -390,14 +372,13 @@ input[type=search]:focus + .header-search-btn svg {
   color: #32425c;
   margin: 0;
   margin-top: 4px;
-
 }
 
 .profile-links {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 75px;
+  height: 75px;
   max-width: 300px;
 }
 
@@ -476,7 +457,6 @@ input[type=search]:focus + .header-search-btn svg {
   padding-bottom: 12px;
   padding-left: 48px;
   position: relative;
-
 }
 
 .button-logon:hover,
@@ -532,12 +512,10 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: absolute;
-
   width: 4px;
   height: 4px;
   border-radius: 50%;
   background-color: #32425c;
-
   left: -17px;
   top: 7px;
 }
@@ -546,7 +524,6 @@ input[type=search]:focus + .header-search-btn svg {
   list-style: none;
   padding-left: 0;
   margin: 0;
-
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -673,18 +650,15 @@ input[type=search]:focus + .header-search-btn svg {
 .materials {
   background-color: #ffbf47;
   overflow: hidden;
-
 }
 
 .materials::after {
   content: "";
   display: block;
   position: absolute;
-
   background-image: url("../img/icon-1.svg");
   width: 44px;
   height: 65px;
-
   top: 31px;
   right: 43px;
 }
@@ -697,11 +671,9 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: absolute;
-
   background-image: url("../img/icon-2.svg");
   width: 75px;
   height: 61px;
-
   top: 33px;
   right: 28px;
 }
@@ -714,11 +686,9 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: absolute;
-
   background-image: url("../img/icon-3.svg");
   width: 78px;
   height: 62px;
-
   top: 31px;
   right: 31px;
 }
@@ -731,11 +701,9 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: absolute;
-
   background-image: url("../img/icon-4.svg");
   width: 59px;
   height: 72px;
-
   top: 26px;
   right: 45px;
 }
@@ -748,11 +716,9 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: absolute;
-
   background-image: url("../img/icon-5.svg");
   width: 78px;
   height: 63px;
-
   top: 32px;
   right: 31px;
 }
@@ -825,7 +791,6 @@ input[type=search]:focus + .header-search-btn svg {
   border-radius: 50%;
   border: none;
   position: relative;
-
 }
 
 .slider-nav-dot:not(:last-child) {
@@ -849,7 +814,6 @@ input[type=search]:focus + .header-search-btn svg {
   top: 206px;
   left: 25px;
   letter-spacing: 0.15px;
-
   min-width: 195px;
   text-align: center;
   padding-top: 11px;
@@ -883,7 +847,6 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .address-link {
-  //padding: 10px 60px 10px 64px;
   display: block;
   min-width: 300px;
   text-align: center;
@@ -921,7 +884,6 @@ input[type=search]:focus + .header-search-btn svg {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -958,7 +920,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .popular-products {
-  //margin-bottom: 3px;
+
 }
 
 .popular-brands {
@@ -1007,7 +969,6 @@ input[type=search]:focus + .header-search-btn svg {
   min-height: 318px;
   border: 1px solid #e5e5e5;
   margin-bottom: 20px;
-
 }
 
 .products-item:hover img {
@@ -1035,6 +996,7 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .product-title {
+  max-width: 177px;
   font-family: "PT Sans";
   font-size: 18px;
   line-height: 20px;
@@ -1044,8 +1006,6 @@ input[type=search]:focus + .header-search-btn svg {
   margin-top: 2px;
   padding-right: 20px;
   padding-left: 20px;
-//margin-left: 30px;
-//text-align: center;
 }
 
 .product-buy-button {
@@ -1096,13 +1056,10 @@ input[type=search]:focus + .header-search-btn svg {
   background-color: #ffffff;
   border: 3px solid #63a63e;
   border-radius: 3px;
-
   min-width: 135px;
   padding-top: 8px;
   padding-bottom: 6px;
   padding-left: 10px;
-
-  //margin-bottom: 8px;
   margin-top: 2px;
 }
 
@@ -1152,7 +1109,7 @@ input[type=search]:focus + .header-search-btn svg {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  min-height: 68px;
+  height: 68px;
   margin-bottom: 15px;
 }
 
@@ -1174,14 +1131,12 @@ input[type=search]:focus + .header-search-btn svg {
   font-weight: bold;
   color: #ffffff;
   background-color: #ee3643;
-
   margin: 0;
   padding-left: 34px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 24px;
   margin-right: 10px;
-
   border-radius: 3px;
   position: relative;
 }
@@ -1190,18 +1145,14 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: absolute;
-
   width: 0px;
   height: 0px;
-
   border-width: 19px;
   border-style: solid;
   border-color: #ee3643;
-
   border-right-color: transparent;
   border-top-color: transparent;
   border-bottom-color: transparent;
-
   right: -36px;
   top: 0px;
 }
@@ -1249,7 +1200,6 @@ input[type=search]:focus + .header-search-btn svg {
   background-image: url("../img/layer-130.png");
   width: 389px;
   height: 283px;
-
   top: 3px;
   left: 239px;
 }
@@ -1258,7 +1208,6 @@ input[type=search]:focus + .header-search-btn svg {
   background-image: url("../img/layer-119.png");
   width: 465px;
   height: 285px;
-
   top: 1px;
   left: 165px;
 }
@@ -1281,7 +1230,7 @@ input[type=search]:focus + .header-search-btn svg {
 
 .popular-brands-item-link {
   min-width: 100%;
-  min-height: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1339,15 +1288,11 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: absolute;
-
   width: 10px;
   height: 272px;
-
   background-image: url("../img/layer-118.png");
-
   right: 0;
   top: -43px;
-
 }
 
 .about-list {
@@ -1420,10 +1365,8 @@ input[type=search]:focus + .header-search-btn svg {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   padding-top: 79px;
   padding-bottom: 86px;
-
   position: relative;
 }
 
@@ -1451,11 +1394,9 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: absolute;
-
   background-image: url("../img/icon-right-small.svg");
   width: 8px;
   height: 12px;
-
   top: 5px;
   right: -14px;
 }
@@ -1471,7 +1412,6 @@ input[type=search]:focus + .header-search-btn svg {
   background-image: url("../img/icon-home.svg");
   width: 15px;
   height: 12px;
-
   top: 5px;
   left: -2px;
 }
@@ -1493,7 +1433,6 @@ input[type=search]:focus + .header-search-btn svg {
   font-weight: 400;
   text-transform: uppercase;
   color: #32425c;
-
   background-color: #f2f6f8;
   margin: 0 0 20px;
   padding: 29px;
@@ -1544,12 +1483,10 @@ input[type=search]:focus + .header-search-btn svg {
 .range-slider-track {
   padding: 39px 20px;
   position: relative;
-
   width: 220px;
   height: 80px;
   background-color: #f7f3ec;
   border-radius: 5px;
-
   margin-top: 15px;
 }
 
@@ -1572,10 +1509,10 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: absolute;
-
   width: 20px;
   height: 23px;
   background-image: url("../img/filter-button.svg");
+  z-index: 4;
 }
 
 .range-slider-pin-min::before {
@@ -1608,7 +1545,6 @@ input[type=search]:focus + .header-search-btn svg {
   border-radius: 3px;
   padding-top: 8px;
   padding-bottom: 11px;
-
   -webkit-appearance: textfield;
 }
 
@@ -1631,7 +1567,6 @@ input[type=search]:focus + .header-search-btn svg {
   margin: 0;
   margin-top: 13px;
   margin-bottom: 19px;
-
 }
 
 .brand-list li, .power-list li {
@@ -1649,7 +1584,6 @@ input[type=search]:focus + .header-search-btn svg {
   position: absolute;
   width: 23px;
   height: 23px;
-
   background-image: url("../img/checkbox-off.svg");
   left: -34px;
   top: -1px;
@@ -1670,7 +1604,6 @@ input[type=search]:focus + .header-search-btn svg {
   position: absolute;
   width: 25px;
   height: 25px;
-
   background-image: url("../img/radio-off.svg");
   left: -35px;
   top: -3px;
@@ -1696,18 +1629,14 @@ input[type=search]:focus + .header-search-btn svg {
   line-height: 18px;
   text-transform: uppercase;
   background-color: transparent;
-
   border-style: solid;
   border-width: 1px;
   border-radius: 3px;
   border-color: #e5e5e5;
-
   padding-left: 38px;
   padding-right: 38px;
-
   padding-top: 9px;
   padding-bottom: 8px;
-
   margin-top: 56px;
 }
 
@@ -1733,13 +1662,11 @@ input[type=search]:focus + .header-search-btn svg {
   text-decoration: underline;
   text-decoration-color: #ee3643;
   text-decoration-style: dotted;
-
   margin-left: 68px;
 }
 
 .sort-link:last-child {
-  //margin-right: 18px;
-  //margin-left:20px;
+
 }
 
 .sort-link:hover,
@@ -1782,7 +1709,6 @@ input[type=search]:focus + .header-search-btn svg {
   list-style: none;
   padding-left: 0;
   display: flex;
-
   margin-top: 40px;
   margin-bottom: 66px;
 }
@@ -1800,14 +1726,11 @@ input[type=search]:focus + .header-search-btn svg {
   border-width: 1px;
   border-style: solid;
   border-color: #e5e5e5;
-
   border-radius: 2px;
   padding-top: 9px;
   padding-right: 14px;
   padding-bottom: 10px;
-
   padding-left: 15px;
-
 }
 
 .page-link-next {
@@ -1830,10 +1753,6 @@ input[type=search]:focus + .header-search-btn svg {
   border-color: #ee3643;
 }
 
-.sort-asc-btn, .sort-desc-btn {
-  //display: none;
-}
-
 .about-perforators {
   background-color: #f2f6f8;
   padding-top: 65px;
@@ -1848,29 +1767,22 @@ input[type=search]:focus + .header-search-btn svg {
 .about-perforators p {
   margin-top: 26px;
   margin-bottom: 0;
-  letter-spacing: 0.15px;
 }
 
 .popup-email-us {
   display: none;
   position: fixed;
-
   width: 620px;
   height: 430px;
-
   border-top-width: 7px;
   border-top-style: solid;
   border-top-color: #ee3643;
-
   top: calc(50% - 144px);
   left: calc(50% - 310px);
-
   background-color: #fff;
   z-index: 3;
-
   flex-direction: column;
   justify-content: space-between;
-
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
 }
 
@@ -1913,20 +1825,15 @@ input[type=search]:focus + .header-search-btn svg {
   position: fixed;
   width: 620px;
   height: 282px;
-
   border-top-width: 7px;
   border-top-style: solid;
   border-top-color: #ee3643;
-
   top: calc(50% - 145px);
   left: calc(50% - 310px);
-
   background-color: #fff;
-  z-index: 3;
-
+  z-index: 8;
   flex-direction: column;
   justify-content: space-between;
-
   box-shadow: 0 20px 40px rgba(41, 52, 73, 0.75);
 }
 
@@ -1942,12 +1849,10 @@ input[type=search]:focus + .header-search-btn svg {
   min-width: 100%;
   padding-left: 80px;
   padding-right: 80px;
-
 }
 
 .popup-email-us-top-wrap popup-label:first-child {
   margin-right: 20px;
-
 }
 
 .popup-email-us-textarea-wrap {
@@ -1970,7 +1875,6 @@ input[type=search]:focus + .header-search-btn svg {
   font-size: 18px;
   line-height: 18px;
   color: #000000;
-
   display: flex;
   flex-direction: column;
 }
@@ -1995,6 +1899,7 @@ input[type=search]:focus + .header-search-btn svg {
   min-width: 460px;
   border-style: solid;
   border-color: #dee3e4;
+  resize: none;
 }
 
 .popup-submit-buttom, .popup-buy-button {
@@ -2012,7 +1917,6 @@ input[type=search]:focus + .header-search-btn svg {
   background-color: #f4f4f4;
   padding-top: 10px;
   padding-top: 37px;
-
   padding-bottom: 37px;
 }
 
@@ -2083,14 +1987,11 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: absolute;
-
   background-image: url("../img/icon-mark.svg");
   width: 66px;
   height: 66px;
-
   left: 80px;
   top: -17px;
-
 }
 
 .popup-email-us-close,
@@ -2099,7 +2000,6 @@ input[type=search]:focus + .header-search-btn svg {
   position: absolute;
   width: 22px;
   height: 22px;
-  //padding: 0;
   cursor: pointer;
   background-color: transparent;
   top: 9px;
@@ -2166,8 +2066,7 @@ input[type=search]:focus + .header-search-btn svg {
   align-items: center;
   flex-wrap: wrap;
   min-height: 108px;
-  //padding-top: 20px;
-  //padding-bottom: 20px;
+  height: 108px;
 }
 
 .footer-top-menu, .footer-middle-menu {
@@ -2223,7 +2122,6 @@ input[type=search]:focus + .header-search-btn svg {
   color: #ffffff;
   margin-top: 33px;
   margin-bottom: 0;
-
   margin-right: 33px;
   margin-left: 3px;
 }
@@ -2263,11 +2161,9 @@ input[type=search]:focus + .header-search-btn svg {
   content: "";
   display: block;
   position: relative;
-
   height: 40px;
   width: 40px;
   border-radius: 50%;
-
   background-color: #212a3a;
   background-repeat: no-repeat;
   background-position: center;
@@ -2293,7 +2189,6 @@ input[type=search]:focus + .header-search-btn svg {
 .footer-bottom-link-description {
   display: flex;
   flex-direction: column;
-
   font-family: Cuprum;
   font-size: 16px;
   line-height: 18px;

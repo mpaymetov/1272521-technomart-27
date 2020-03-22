@@ -47,13 +47,13 @@
         </div>
         <nav class="main-navigation">
           <ul class="site-navigation">
-            <li><a>Главная</a></li>
-            <li><a href="#">Компания</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a href="#">Спецпредложения</a></li>
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li class="site-navigation-item"><a>Главная</a></li>
+            <li class="site-navigation-item"><a href="#">Компания</a></li>
+            <li class="site-navigation-item"><a href="catalog.html">Каталог</a></li>
+            <li class="site-navigation-item"><a href="#">Новости</a></li>
+            <li class="site-navigation-item"><a href="#">Спецпредложения</a></li>
+            <li class="site-navigation-item"><a href="#">Доставка</a></li>
+            <li class="site-navigation-item"><a href="#">Контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -89,12 +89,12 @@
             </li>
           </ul>
           <section class="slider">
-            <button type="button" class="slider-navigation slider-nav-btn-left">
+            <button type="button" class="slider-navigation slider-nav-btn-left" aria-label="предыдущий слайд">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40">
                 <path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z"/>
               </svg>
             </button>
-            <button type="button" class="slider-navigation slider-nav-btn-right">
+            <button type="button" class="slider-navigation slider-nav-btn-right" aria-label="следующий слайд">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40">
                 <path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z"/>
               </svg>
@@ -342,7 +342,7 @@
         <div class="footer-middle">
           <p class="footer-middle-address">
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-            +7 (812) 555-05-55
+            <a href="tel:+78125550555">+7 (812) 555-05-55</a>
           </p>
           <ul class="footer-middle-menu">
             <li><a href="#">Материалы</a></li>

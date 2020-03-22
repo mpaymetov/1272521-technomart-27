@@ -44,7 +44,7 @@
                   <path d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18 0 18h20s.025-3.099-2.119-3.834z"/>
                 </svg>
               </a>
-              <a href="#" class="button-logout">
+              <a href="#" class="button-logout" aria-label="Выход пользователя">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
                   <g>
                     <path d="M21 8.5L12.125 0v6h-6v5h6v6z"/>
@@ -61,13 +61,13 @@
         </div>
         <nav class="main-navigation">
           <ul class="site-navigation">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="#">Компания</a></li>
-            <li><a>Каталог</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a href="#">Спецпредложения</a></li>
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li class="site-navigation-item"><a href="index.html">Главная</a></li>
+            <li class="site-navigation-item"><a href="#">Компания</a></li>
+            <li class="site-navigation-item"><a>Каталог</a></li>
+            <li class="site-navigation-item"><a href="#">Новости</a></li>
+            <li class="site-navigation-item"><a href="#">Спецпредложения</a></li>
+            <li class="site-navigation-item"><a href="#">Доставка</a></li>
+            <li class="site-navigation-item"><a href="#">Контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -76,7 +76,7 @@
     <main>
       <div class="content-wrapper">
         <ol class="breadcrumbs">
-          <li><a class="breadcrumbs-link home-link" href="index.html"></a></li>
+          <li><a class="breadcrumbs-link home-link" href="index.html" aria-label="Главная"></a></li>
           <li><a class="breadcrumbs-link" href="catalog.html">Каталог</a></li>
           <li><a class="breadcrumbs-link" href="#">Инструмент</a></li>
           <li><a class="breadcrumbs-link" href="#">Перфораторы</a></li>
@@ -113,23 +113,23 @@
                 <legend>Производители:</legend>
                 <ul class="brand-list">
                   <li>
-                    <input class="power-list-checkbox visually-hidden" type="checkbox" name="brand" id="bosch" value="Bosch" checked>
+                    <input class="brand-list-checkbox visually-hidden" type="checkbox" name="brand" id="bosch" value="Bosch" checked>
                     <label class="brand-name" for="bosch">Bosch</label>
                   </li>
                   <li>
-                    <input class="power-list-checkbox visually-hidden" type="checkbox" name="brand" id="interskol" value="interskol">
+                    <input class="brand-list-checkbox visually-hidden" type="checkbox" name="brand" id="interskol" value="interskol">
                     <label class="brand-name" for="interskol">Интерскол</label>
                   </li>
                   <li>
-                    <input class="power-list-checkbox visually-hidden" type="checkbox" name="brand" id="makita" value="Makita" checked>
+                    <input class="brand-list-checkbox visually-hidden" type="checkbox" name="brand" id="makita" value="Makita" checked>
                     <label class="brand-name" for="makita">Makita</label>
                   </li>
                   <li>
-                    <input class="power-list-checkbox visually-hidden" type="checkbox" name="brand" id="dewalt" value="DeWalt">
+                    <input class="brand-list-checkbox visually-hidden" type="checkbox" name="brand" id="dewalt" value="DeWalt">
                     <label class="brand-name" for="dewalt">DeWalt</label>
                   </li>
                   <li>
-                    <input class="power-list-checkbox visually-hidden" type="checkbox" name="brand" id="hitachi" value="Hitachi">
+                    <input class="brand-list-checkbox visually-hidden" type="checkbox" name="brand" id="hitachi" value="Hitachi">
                     <label class="brand-name" for="hitachi">Hitachi</label>
                   </li>
                 </ul>
@@ -159,12 +159,12 @@
               <a href="#" class="sort-link active">по цене</a>
               <a href="#" class="sort-link">по типу</a>
               <a href="#" class="sort-link">по функционалу</a>
-              <a href="#" class="sort-link sort-asc-btn active">
+              <a href="#" class="sort-link sort-asc-btn active" aria-label="сортировка по возрастанию">
                 <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
                   <path d="M5.5 0L0 10h11z"/>
                 </svg>
               </a>
-              <a href="#" class="sort-link sort-desc-btn">
+              <a href="#" class="sort-link sort-desc-btn" aria-label="сортировка по убыванию">
                 <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
                   <path d="M5.5 10L0 0h11"/>
                 </svg>
@@ -328,7 +328,7 @@
         <div class="footer-middle">
           <p class="footer-middle-address">
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-            +7 (812) 555-05-55
+            <a href="tel:+78125550555">+7 (812) 555-05-55</a>
           </p>
           <ul class="footer-middle-menu">
             <li><a href="#">Материалы</a></li>

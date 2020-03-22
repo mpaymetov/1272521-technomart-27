@@ -323,7 +323,8 @@ input[type=search]:focus + .header-search-btn svg {
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 46px;
-  margin-bottom: 39px;
+  margin-bottom: 37px;
+  min-height: 75px;
 }
 
 .main-header-text {
@@ -341,12 +342,13 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .main-header-contact {
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 4px;
+  margin-left: 72px;
+  margin-right: auto;
 }
 
 .main-header-phone {
@@ -395,7 +397,7 @@ input[type=search]:focus + .header-search-btn svg {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 73px;
+  min-height: 75px;
   max-width: 300px;
 }
 
@@ -436,7 +438,10 @@ input[type=search]:focus + .header-search-btn svg {
 
 .button-logout {
   background-color: #ffffff;
-  padding: 29px 10px 17px 16px;
+  padding-top: 29px;
+  padding-right: 10px;
+  padding-bottom: 17px;
+  padding-left: 16px;
 }
 
 .button-logout svg {
@@ -920,7 +925,6 @@ input[type=search]:focus + .header-search-btn svg {
   list-style: none;
   padding-left: 0;
   margin: 0;
-  margin-bottom: 1px;
 }
 
 .catalog .products-list {
@@ -1439,14 +1443,28 @@ input[type=search]:focus + .header-search-btn svg {
 }
 
 .breadcrumbs li {
-  margin-right: 20px;
-}
-
-.breadcrumbs li:first-child {
+  margin-right: 30px;
   position: relative;
 }
 
-.breadcrumbs li:first-child a::before {
+.breadcrumbs li:not(:last-child):after {
+  content: "";
+  display: block;
+  position: absolute;
+
+  background-image: url("../img/icon-right-small.svg");
+  width: 8px;
+  height: 12px;
+
+  top: 5px;
+  right: -14px;
+}
+
+.home-link {
+  padding-right: 13px;
+}
+
+.home-link::before {
   content: "";
   display: block;
   position: absolute;
@@ -1458,11 +1476,12 @@ input[type=search]:focus + .header-search-btn svg {
   left: -2px;
 }
 
-.breadcrumbs a {
+.breadcrumbs-link {
   font-family: "PT Sans";
   font-size: 13px;
   line-height: 24px;
   text-transform: uppercase;
+  letter-spacing: 0.2px;
   color: #000000;
   margin-right: 10px;
 }
@@ -1664,13 +1683,18 @@ input[type=search]:focus + .header-search-btn svg {
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
-  color: #000000;
+  background-color: transparent;
 
-  padding-left: 37px;
-  padding-right: 37px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #e5e5e5;
+
+  padding-left: 38px;
+  padding-right: 38px;
 
   padding-top: 9px;
-  padding-bottom: 7px;
+  padding-bottom: 8px;
 
   margin-top: 56px;
 }
@@ -1750,12 +1774,17 @@ input[type=search]:focus + .header-search-btn svg {
   border-color: #e5e5e5;
 
   border-radius: 2px;
-  padding: 9px 14px 8px 15px;
+  padding-top: 9px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+
+  padding-left: 15px;
 
 }
 
-.pagination li:last-child .page-link {
-  padding: 10px 31px;
+.page-link-next {
+  padding-left: 31px;
+  padding-right: 31px;
 }
 
 .page-link:hover,
@@ -1785,11 +1814,13 @@ input[type=search]:focus + .header-search-btn svg {
 
 .about-perforators .section-title {
   color: #000000;
+  letter-spacing: 0.15px;
 }
 
 .about-perforators p {
   margin-top: 26px;
   margin-bottom: 0;
+  letter-spacing: 0.15px;
 }
 
 .popup-email-us {

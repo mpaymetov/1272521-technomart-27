@@ -100,6 +100,11 @@ input[type="radio"].visually-hidden {
   url('../fonts/ptsansbold.woff') format('woff'); /* Modern Browsers */
 }
 
+@keyframes opaciter {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .main-header {
   background-color: #f2f6f8;
 }
@@ -1813,6 +1818,9 @@ input[type=search]:focus + .header-search-btn svg {
 
 .popup-email-us.show {
   display: block;
+
+  animation-name: opaciter;
+  animation-duration: 1s;
 }
 
 .popup-email-us form {
@@ -1836,6 +1844,8 @@ input[type=search]:focus + .header-search-btn svg {
 
 .popup-map.show {
   display: block;
+  animation-name: opaciter;
+  animation-duration: 1s;
 }
 
 .popup-map iframe {
@@ -1880,6 +1890,8 @@ input[type=search]:focus + .header-search-btn svg {
 
 .popup-info.show {
   display: flex;
+  animation-name: opaciter;
+  animation-duration: 1s;
 }
 
 .popup-email-us-top-wrap {

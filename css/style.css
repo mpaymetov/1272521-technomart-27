@@ -46,7 +46,7 @@ input[type="radio"].visually-hidden {
 
 /* cuprum-regular - latin_cyrillic */
 @font-face {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: "Cuprum";
   font-style: normal;
   font-weight: 400;
   src: local('Cuprum Regular'), local('Cuprum-Regular'),
@@ -55,7 +55,7 @@ input[type="radio"].visually-hidden {
 }
 /* cuprum-italic - latin_cyrillic */
 @font-face {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: "Cuprum";
   font-style: italic;
   font-weight: 400;
   src: local('Cuprum Italic'), local('Cuprum-Italic'),
@@ -64,7 +64,7 @@ input[type="radio"].visually-hidden {
 }
 /* cuprum-700 - latin_cyrillic */
 @font-face {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: "Cuprum";
   font-style: normal;
   font-weight: 700;
   src: local('Cuprum Bold'), local('Cuprum-Bold'),
@@ -73,7 +73,7 @@ input[type="radio"].visually-hidden {
 }
 /* cuprum-700italic - latin_cyrillic */
 @font-face {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: "Cuprum";
   font-style: italic;
   font-weight: 700;
   src: local('Cuprum Bold Italic'), local('Cuprum-BoldItalic'),
@@ -83,7 +83,7 @@ input[type="radio"].visually-hidden {
 
 /* pt-sans-regular - cyrillic_latin */
 @font-face {
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   src: local('PT Sans'), local('PTSans-Regular'),
@@ -92,7 +92,7 @@ input[type="radio"].visually-hidden {
 }
 /* pt-sans-700 - cyrillic_latin */
 @font-face {
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   src: local('PT Sans Bold'), local('PTSans-Bold'),
@@ -342,6 +342,7 @@ input[type=search]:focus + .header-search-btn svg {
   line-height: 21px;
   color: #ee3643;
   border: 3px solid #ffffff;
+  vertical-align: center;
   margin: 0;
   min-width: 270px;
   padding-left: 20px;
